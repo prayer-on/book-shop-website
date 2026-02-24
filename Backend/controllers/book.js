@@ -104,8 +104,8 @@ Book.updateOne({_id: req.params.id}, book) .then(() => {
 
 exports.deleteBook = (req, res, next) => {
     Book.findOne({_id: req.params.id}) .then((book) => {
-        const filename = book.imageUrl.split('/images/')[1];
-        fs.unlink('images/' + filename, () => {
+        const webpFilename = book.imageUrl.split('/images/')[1];
+        fs.unlink('images/' + webpFilename , () => {
         Book.deleteOne({_id: req.params.id}) .then(() => {
         res.status(200).json({
             message: 'Book deleted'})
@@ -133,7 +133,7 @@ exports.getAllBooks = (req, res, next) => {
 
 exports.getTopThreeBooks = (req, res, next) => {
 Book.find()
-.sort({rating: -1})
+.sort({averageRating: -1})
 .limit(3)
 .then(
     (books) => {
