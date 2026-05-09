@@ -1,4 +1,4 @@
-# Book shop
+# Book Shop
 <h3>📖 Description:</h3>
 
 - A book website where users can perform CRUD operations, featuring secure user authentication with a connected server and database.
