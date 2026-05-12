@@ -6,7 +6,7 @@
 
 <h3>🚀 Demo:</h3>
 
-- (Coming soon !!)
+- [Live Preview](https://book-shop-website-frontend.onrender.com)
 
 <h3>🛠️ Technologies:</h3>
 
