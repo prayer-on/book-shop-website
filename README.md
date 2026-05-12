@@ -45,6 +45,33 @@ git clone https://github.com/prayer-on/book-shop-website.git
 cd book-shop-website
 ```
 
+3. Select the Backend folder:
+```bash
+cd Backend
+```
+
+4. Install the dependencies:
+```bash
+npm install --legacy-peer-deps
+```
+
+5. Start the server:
+```bash
+npm run dev
+```
+
+```After activated the Backend, open another termianl:```
+
+6. Select the project:
+```bash
+cd my-old-grimoire
+```
+
+7. Open the browser:
+```bash
+npm start
+```
+
 
 <h3>🧠 What I've learned:</h3>
 
