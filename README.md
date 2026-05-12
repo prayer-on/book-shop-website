@@ -10,9 +10,8 @@
 
 <h3>🛠️ Technologies:</h3>
 
-- `HTML5`
+- `React.js`
 - `CSS3`
-- `JavaScript (ES6+)`
 - `Node.js`
 - `Express.js`
 - `MongoDB`
@@ -20,7 +19,7 @@
 
 <h3>💻 Functionalities:</h3>
 
-- Secure user authentication (Login/Logout)
+- Secure user authentication (Login)
 - Project management (CRUD: Create, Read, Update, Delete)
 - Interactive UI elements
 - Dynamic content filtering by ratings
@@ -28,6 +27,19 @@
 
 <h3>📸 Screenshot:</h3>
 
+<img width="1440" height="777" alt="Screenshot 2026-05-13 alle 00 07 20" src="https://github.com/user-attachments/assets/e8d7933a-a03f-4912-9fa4-2e25e533b9d9" />
+<br>
+<img width="1440" height="778" alt="Screenshot 2026-05-13 alle 00 08 30" src="https://github.com/user-attachments/assets/cfe4c781-993f-4ccc-a842-32c2bddeb2dc" />
+<br>
+<img width="1440" height="779" alt="Screenshot 2026-05-13 alle 00 08 46" src="https://github.com/user-attachments/assets/da2b5e43-4808-409c-a7a6-51cfd236584a" />
+<br>
+<img width="1440" height="779" alt="Screenshot 2026-05-13 alle 00 10 42" src="https://github.com/user-attachments/assets/7a256a23-81e9-4a3c-b733-4bac8fa41152" />
+<br>
+<img width="1440" height="775" alt="Screenshot 2026-05-13 alle 00 10 59" src="https://github.com/user-attachments/assets/d6341b37-aff7-4545-af5f-d5f12ed42de7" />
+<br>
+<img width="1440" height="777" alt="Screenshot 2026-05-13 alle 00 11 21" src="https://github.com/user-attachments/assets/4b4b2354-96e5-49e6-8139-8acfdc8945ae" />
+<br>
+<img width="1440" height="775" alt="Screenshot 2026-05-13 alle 00 11 37" src="https://github.com/user-attachments/assets/f55e354b-4abb-4583-a8a2-a0eb34e26d2e" />
 <br>
 
 
@@ -75,18 +87,18 @@ npm start
 
 <h3>🧠 What I've learned:</h3>
 
-- Implementing user authentication
+- Implementing secure user authentication and authorization
 - Handling REST API requests (GET, POST, PUT, DELETE)
-- Secure password hashing with bcrypt
-- Connecting a database to a server
-- Implementing a model
-- Protecting API routes
-- MVC architecture 
+- Secure password hashing using bcrypt
+- Connecting and managing a NoSQL database (MongoDB)
+- Implementing data models with Mongoose
+- Protecting API routes with JWT (JSON Web Tokens)
+- Organizing code using the MVC (Model-View-Controller) architecture 
 
 
 <h3>📈 Improvements:</h3>
 
-- 
+- Rebuilding the UI with a modern look and responsive design
 
 
 <h3>👤 Author:</h3>
