@@ -72,7 +72,7 @@ npm install --legacy-peer-deps
 npm run dev
 ```
 
-```After activated the Backend, open another termianl:```
+```After activating the Backend, open another terminal.```
 
 6. Select the project:
 ```bash
