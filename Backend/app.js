@@ -1,6 +1,3 @@
-// MONGODB PW: honCew-tiwguw-7vurxy 
-// MONGODB CONNECTION: mongodb+srv://Prayer:<db_password>@cluster0.6cw2olg.mongodb.net/?appName=Cluster0 
-
 const express = require('express');
 const mongoose = require('mongoose');
 
@@ -12,7 +9,7 @@ const app = express();
 const cors = require('cors');
 
 // DATABASE CONNECTION ⬇️
-mongoose.connect('mongodb+srv://Prayer:honCew-tiwguw-7vurxy@cluster0.6cw2olg.mongodb.net/?appName=Cluster0')
+mongoose.connect(process.env.MONGO_URI)
 .then(() => {
 console.log('Successfully connected to MongoDB Atlas!')
 })
