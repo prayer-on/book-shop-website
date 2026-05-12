@@ -98,7 +98,7 @@ npm start
 
 <h3>📈 Improvements:</h3>
 
-- Rebuilding the UI with a modern look and responsive design
+- Rebuilding the UI with a modern look
 
 
 <h3>👤 Author:</h3>
