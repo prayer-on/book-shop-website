@@ -19,7 +19,7 @@
 
 <h3>💻 Functionalities:</h3>
 
-- Secure user authentication (Login)
+- Secure user authentication 
 - Project management (CRUD: Create, Read, Update, Delete)
 - Interactive UI elements
 - Dynamic content filtering by ratings
