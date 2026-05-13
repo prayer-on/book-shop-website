@@ -74,12 +74,22 @@ npm run dev
 
 ```After activating the Backend, open another terminal.```
 
-6. Select the project:
+6. Select the Project folder:
+```bash
+cd book-shop-website
+```
+
+7. Select the project:
 ```bash
 cd my-old-grimoire
 ```
 
-7. Open the browser:
+8. Install the dependencies:
+```bash
+npm install
+```
+
+9. Open the browser:
 ```bash
 npm start
 ```
